@@ -1,0 +1,27 @@
+/* Firefox 滚动条 */
+@-moz-document url-prefix() {
+    * {
+        scrollbar-width: auto;
+        /* 恢复默认宽度 */
+        scrollbar-color: rgba(0, 0, 0, 0.6) transparent;
+        /* 设置滑块的颜色（可以自定义） */
+    }
+}
+
+/* Webkit (Chrome/Safari) 滚动条 */
+*::-webkit-scrollbar {
+    width: 15px;
+    /* 设置滚动条宽度 */
+    height: 12px;
+    /* 设置水平滚动条高度 */
+}
+
+/* 滑块 */
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* 设置滑块的颜色 */
+    border-radius: 10px;
+    /* 可选：设置圆角效果 */
+    border: 2px solid transparent;
+    /* 可选：确保滑块之间有边界 */
+}
