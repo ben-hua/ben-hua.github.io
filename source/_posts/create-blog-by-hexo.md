@@ -22,15 +22,23 @@ abbrlink:
 
 很简单，还是看[Hexo官方文档](https://hexo.io/zh-cn/docs/setup)
 
+添加一个页面
+
+```bash
+hexo new create-blog-by-hexo
+```
+
 ## 添加主题样式-butterfly
 
-可以在官网或者Github找自己喜欢的主题样式。
+默认样式不太喜欢，可以在Hexo官网或者Github找自己喜欢的主题样式。
 
 Ben哥找了一圈，比较喜欢的主题[hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly)样式。
 
 跟着它的配置文档搞一遍，根据自己的喜好，调一调配置。
 
-## 启动自动化部署
+## 使用Github Actions部署到 Github Pages
+
+这里还是参考[Hexo 发布Github Pages的文档](https://hexo.io/zh-cn/docs/github-pages)
 
 ## 参考文献
 
