@@ -1,5 +1,5 @@
 ---
-title: 使用Hexo建立的静态Blog网站
+title: 使用Hexo建立的静态Blog网站到Github Pages
 comments: true
 date: 2024-12-25 14:35:34
 tags:
