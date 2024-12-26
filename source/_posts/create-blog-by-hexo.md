@@ -40,6 +40,27 @@ Ben哥找了一圈，比较喜欢的主题[hexo-theme-butterfly](https://github.
 
 这里还是参考[Hexo 发布Github Pages的文档](https://hexo.io/zh-cn/docs/github-pages)
 
+## 其他问题
+
++ 指定文件原样复制，跳过Hexo文件渲染
+
+    位于source下的文件，会被Hexo使用theme的样式进行渲染，如果希望某一个html文件原样复制到根目录，则需要如下配置
+
+    ```yml
+    skip_render:
+        - googled68ab6c92601eab5.html
+    ```
+
++ 覆盖Themes中的样式
+    - 新增样式文件 source/css/custom.css
+    - 添加配置
+
+        ```yml
+        inject:
+            head:
+                - <link rel="stylesheet" href="/css/custom.css">
+        ```
+
 ## 参考文献
 
 + [Github Pages](https://pages.github.com/)
